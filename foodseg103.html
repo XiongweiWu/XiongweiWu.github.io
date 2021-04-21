@@ -1,243 +1,248 @@
 <!DOCTYPE html>
 <!-- saved from url=(0038)https://yuliang.vision/video-data-aug/ -->
 <html lang="en"><div id="translate-button" style="background-color: white; display: none; top: 116px; left: 975px;"><img src="data:image/png;base64,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"></div><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-  <meta name="author" content="xwwu">
-  <title>A Large-Scale Benchmark for Food Image Segmentation</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<meta name="author" content="xwwu">
+	<title>A Large-Scale Benchmark for Food Image Segmentation</title>
 
-  <!-- CSS  -->
-  <link href="./foodseg103_files/icon" rel="stylesheet">
-  <link href="./foodseg103_files/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="./foodseg103_files/style.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="./foodseg103_files/font-awesome.min.css" rel="stylesheet">
+	<!-- CSS  -->
+	<link href="./foodseg103_files/icon" rel="stylesheet">
+	<link href="./foodseg103_files/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="./foodseg103_files/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="./foodseg103_files/font-awesome.min.css" rel="stylesheet">
 
-  <meta property="og:image" content="images/teaser_5.png">
+	<meta property="og:image" content="images/teaser_5.png">
 </head>
 <body>
-  
-  <div class="navbar-fixed">
+	
+	<div class="navbar-fixed">
 
-    <nav class="grey darken-4" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="https://yuliang.vision/video-data-aug/#" class="brand-logo"></a>
-        <ul class="left hide-on-med-and-down">
-          <li><a class="nav-item waves-effect waves-light" href="https://XiongweiWu.github.io/foodseg103#home">Home</a></li>
-          <li><a class="nav-item waves-effect waves-light active" href="https://XiongweiWu.github.io/foodseg103/#abstract">Abstract</a></li>
-          <li><a class="nav-item waves-effect waves-light" href="https://XiongweiWu.github.io/foodseg103/#explore">Explore</a></li>
-          <li><a class="nav-item waves-effect waves-light" href="https://XiongweiWu.github.io/foodseg103/#paper">Paper</a></li>
-          <li><a class="nav-item waves-effect waves-light" href="https://XiongweiWu.github.io/foodseg103/#download">Download</a></li>
-          <!-- <li><a class="nav-item waves-effect waves-light" href="#network">Network</a></li> -->
-          <!-- <li><a class="nav-item waves-effect waves-light" href="#reference">References</a></li> -->
-        </ul>
+		<nav class="grey darken-4" role="navigation">
+			<div class="nav-wrapper container"><a id="logo-container" href="https://yuliang.vision/video-data-aug/#" class="brand-logo"></a>
+				<ul class="left hide-on-med-and-down">
+					<li><a class="nav-item waves-effect waves-light" href="https://xiongweiwu.github.io/foodseg103.html#home">Home</a></li>
+					<li><a class="nav-item waves-effect waves-light active" href="https://xiongweiwu.github.io/foodseg103.html#abstract">Abstract</a></li>
+					<li><a class="nav-item waves-effect waves-light" href="https://xiongweiwu.github.io/foodseg103.html#explore">Explore</a></li>
+					<li><a class="nav-item waves-effect waves-light" href="https://xiongweiwu.github.io/foodseg103.html#paper">Paper</a></li>
+					<li><a class="nav-item waves-effect waves-light" href="https://xiongweiwu.github.io/foodseg103.html#download">Download</a></li>
+					<!-- <li><a class="nav-item waves-effect waves-light" href="#network">Network</a></li> -->
+					<!-- <li><a class="nav-item waves-effect waves-light" href="#reference">References</a></li> -->
+				</ul>
 
-        <a href="https://XiongweiWu.github.io/foodseg103.html#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-  </div>
-  
+				<a href="https://XiongweiWu.github.io/foodseg103.html#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	</div>
+	
 
 
 
 
 <!-- Author -->
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container scrollspy" id="home">
+	<div class="section no-pad-bot" id="index-banner">
+		<div class="container scrollspy" id="home">
 
-      <h4 class="header center black-text">A Large-Scale Benchmark for Food Image Segmentation</h4>
+			<h4 class="header center black-text">A Large-Scale Benchmark for Food Image Segmentation</h4>
 
-      <br>
+			<br>
 
-      <div class="row center">
-        <h5 class="header col m4 s12">
-          <div class="author"><a href="http://xiongweiwu.github.io/" target="blank">Xiongwei Wu*</a></div>
-          <div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
-        </h5>
+			<div class="row center">
+				<h5 class="header col m4 s12">
+					<div class="author"><a href="http://xiongweiwu.github.io/" target="blank">Xiongwei Wu*</a></div>
+					<div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
+				</h5>
 
-        <h5 class="header col m4 s12">
-          <div class="author"><a href="https://xinfu607.github.io/" target="blank">Xin Fu</a></div>
-          <div class="school"><a href="http://en.njtu.edu.cn/" target="blank">Beijing Jiaotong University</a></div>
-        </h5>
+				<h5 class="header col m4 s12">
+					<div class="author"><a href="https://xinfu607.github.io/" target="blank">Xin Fu</a></div>
+					<div class="school"><a href="http://en.njtu.edu.cn/" target="blank">Beijing Jiaotong University</a></div>
+				</h5>
 
-        <h5 class="header col m4 s12">
-          <div class="author">Ying Liu</div>
-          <div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
-        </h5>
+				<h5 class="header col m4 s12">
+					<div class="author">Ying Liu</div>
+					<div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
+				</h5>
 
-        <h5 class="header col m4 s12">
-          <div class="author"><a href="http://www.mysmu.edu/faculty/eplim/" target="blank">Ee-Peng Lim</a></div>
-          <div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
-        </h5>
-        
-        <h5 class="header col m4 s12">
-          <div class="author"><a href="https://sites.google.com/view/stevenhoi/home">Steven C.H. Hoi</a></div>
-          <div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
-          <div class='school'> <a href="https://einstein.ai/research/asia" target="blank">Salesforce Research Asia</a></div>
-        </h5>
+				<h5 class="header col m4 s12">
+					<div class="author"><a href="http://www.mysmu.edu/faculty/eplim/" target="blank">Ee-Peng Lim</a></div>
+					<div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
+				</h5>
+				
+				<h5 class="header col m4 s12">
+					<div class="author"><a href="https://sites.google.com/view/stevenhoi/home">Steven C.H. Hoi</a></div>
+					<div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
+					<div class='school'> <a href="https://einstein.ai/research/asia" target="blank">Salesforce Research Asia</a></div>
+				</h5>
 
-        <h5 class="header col m4 s12">
-          <div class="author"><a href="https://qianrusun.com/">Qianru Sun</a></div>
-          <div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
-        </h5>
+				<h5 class="header col m4 s12">
+					<div class="author"><a href="https://qianrusun.com/">Qianru Sun</a></div>
+					<div class="school"><a href="http://www.smu.edu.sg" target="blank">Singapore Management University</a></div>
+				</h5>
 
 
-      </div>
+			</div>
 
 <!--         <h6 class="row center">
-          <div>In arxiv, 2021</div>
-        </h6> -->
+					<div>In arxiv, 2021</div>
+				</h6> -->
 
-       <h5 class="row center">
-          <img class="responsive-img" style="width:50%" src="foodseg103_files/major.png">
-        </h5> 
-  
+			 <h5 class="row center">
+					<img class="responsive-img" style="width:50%" src="foodseg103_files/major.png">
+				</h5> 
+	
 
-        <h6 class="row">
-          <div>Motivation: Humans recognize actions in videos effortlessly, even in the presence of large photometric, geometric, temporal, and scene variations. Injecting these task-specific video invariances through data augmentations helps improve the data efficiency of video action recognition models.</div>
-        </h6>
-
-
-    </div>
-  </div>
+				<h6 class="row">
+					<div>Motivation: Humans recognize actions in videos effortlessly, even in the presence of large photometric, geometric, temporal, and scene variations. Injecting these task-specific video invariances through data augmentations helps improve the data efficiency of video action recognition models.</div>
+				</h6>
 
 
-  <div class="container">
-
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row center">
-
-      </div>
-
-    </div>
-
-    <br>
+		</div>
+	</div>
 
 
+	<div class="container">
+
+		<div class="section">
+
+			<!--   Icon Section   -->
+			<div class="row center">
+
+			</div>
+
+		</div>
+
+		<br>
 
 
-    <div class="row section scrollspy" id="abstract">
-      <div class="title">Abstract</div>
+
+
+		<div class="row section scrollspy" id="abstract">
+			<div class="title">Abstract</div>
 Food image segmentation is a critical and indispensible task for developing health-related applications such as estimating food calories and nutrients. Existing food image segmentation models are underperforming due to two reasons: (1) there is a lack of high quality food image datasets with fine-grained ingredient labels and pixel-wise location masks---the existing datasets either carry coarse ingredient labels or are small in size; and (2) the complex appearance of food makes it difficult to localize and recognize ingredients in food images, e.g., the ingredients may overlap one another in the same image, and the identical ingredient may appear distinctly in different food images. 
 <br>
 In this work, we build a new food image dataset FoodSeg103 (and its extension FoodSeg154) containing 9,490 images. We annotate these images with 154 ingredient classes and result in an average of 6 ingredient labels and pixel-wise masks per image. In addition, we propose a multi-modality pre-training approach called ReLeM that explicitly equips the model with rich and semantic food knowledge. In experiments, we use three popular semantic segmentation methods (i.e., Dilated Convolution based, Feature Pyramid based, and Vision Transformer based) as baselines, and evaluate them as well as ReLeM on our new datasets. We believe that the FoodSeg103 (and its extension FoodSeg154) and the pre-trained models using ReLeM can serve as a benchmark to facilitate future works in fine-grained food image understanding.
 
-    </div>
+		</div>
 
-    <br>
+		<br>
 
 <!-- Results -->
-    <div class="row section scrollspy" id="explore">
-      <div class="title">Explore</div>
-      <br>
+		<div class="row section scrollspy" id="explore">
+			<div class="title">Explore</div>
+			<br>
 
 
-    <div class="row center">
-      <div class="col s8 offset-s2">
-        <div id="explore-framework">
-          <div class="center-align subtitle">Easy and hard examples in FoodSeg103</div>
-            <img class="responsive-img" src="./foodseg103_files/example.png">
-        </div>
-      </div>
-    </div>
+		<div class="row center">
+			<div class="col s8 offset-s2">
+				<div id="explore-framework">
+					<div class="center-align subtitle">Easy and hard examples in FoodSeg103</div>
+						<img class="responsive-img" src="./foodseg103_files/example.png">
+				</div>
+			</div>
+		</div>
 
-    <div class="row center">
-      <div class="col s8 offset-s2">
-        <div id="explore-main">
-          <div class="center-align subtitle">Baseline</div>
-            <img class="responsive-img"  style="width:60%" src="./foodseg103_files/main.png">
-        </div>
-      </div>
-    </div>
+		<div class="row center">
+			<div class="col s8 offset-s2">
+				<div id="explore-main">
+					<div class="center-align subtitle">Baseline</div>
+						<img class="responsive-img"  style="width:60%" src="./foodseg103_files/main.png">
+				</div>
+			</div>
+		</div>
 
-    <div class="row center">
-      <div class="col s8 offset-s2">
-        <div id="explore-vis">
-          <div class="center-align subtitle">Visualization results of ReLeM-CCNet and CCNet on FoodSeg103.</div>
-            <img class="responsive-img" src="./foodseg103_files/vis.png">
-        </div>
-      </div>
-    </div>
+		<div class="row center">
+			<div class="col s8 offset-s2">
+				<div id="explore-vis">
+					<div class="center-align subtitle">Visualization results of ReLeM-CCNet and CCNet on FoodSeg103.</div>
+						<img class="responsive-img" src="./foodseg103_files/vis.png">
+				</div>
+			</div>
+		</div>
 
-  </div>
+	</div>
 
 
 <!-- Papers -->
-    <div class="row section scrollspy" id="paper">
-      <div class="title">Papers</div>
-      <br>
+		<div class="row section scrollspy" id="paper">
+			<div class="title">Papers</div>
+			<br>
 
 
-    <div class="row">
-      <div class="center">
-        <div id="paper-thumbnail">
-          <a href="./papers" target="_blank">
-            <img class="responsive-img" src="./foodseg103_files/FoodSeg_ArXiv.jpg">
-          </a>
-          <a href="./papers/" target="_blank">
-          <div class="center-align subtitle">Link</div>
-          </a>
-        </div>
-      </div>
-    </div>
+		<div class="row">
+			<div class="center">
+				<div id="paper-thumbnail">
+					<a href="./papers" target="_blank">
+						<img class="responsive-img" src="./foodseg103_files/FoodSeg_ArXiv.jpg">
+					</a>
+					<a href="./papers/" target="_blank">
+					<div class="center-align subtitle">Link</div>
+					</a>
+				</div>
+			</div>
+		</div>
 
 
-  </div>
+	</div>
 
 
-    <div class="row">
-      <!-- <div class="subtitle">Citation</div> -->
-      <br>
+		<div class="row">
+			<!-- <div class="subtitle">Citation</div> -->
+			<br>
 
-      <div class="subtitle">Bibtex</div>
-      <pre>@article{xu2021foodseg,
-  title={A Large-Scale Benchmark for Food Image Segmentation},
-  author={Wu, Xiongwei and Fu, Xin and Liu, Ying and Lim, Ee-Peng and Hoi, Steven CH and Sun, Qianru},
-  journal={arXiv preprint arXiv:XXXX.XXXX},
-  year={2021}
+			<div class="subtitle">Bibtex</div>
+			<pre>@article{xu2021foodseg,
+	title={A Large-Scale Benchmark for Food Image Segmentation},
+	author={Wu, Xiongwei and Fu, Xin and Liu, Ying and Lim, Ee-Peng and Hoi, Steven CH and Sun, Qianru},
+	journal={arXiv preprint arXiv:XXXX.XXXX},
+	year={2021}
 }
 </pre>
 
 
 
 
-    </div>
-    <!-- Download -->
-    <!-- TODO: Fix url -->
-    <div class="section row scrollspy" id="download">
-      <div class="title">Download</div>
-      <div class="row">
+		</div>
+		<!-- Download -->
+		<!-- TODO: Fix url -->
+		<div class="section row scrollspy" id="download">
+			<div class="title">Download</div>
+			<div class="row">
 
-        <div class="center">
-          <a href="http://XiongweiWu.github.io/foodseg103.html" target="_blank">
-            <img style="width:10%" src="./foodseg103_files/dataset.png">
-          </a>
-          <br>
-          <a href="http://drive.google.com" target="_blank">Dataset</a>
-        </div>
-      </div>
-    </div>
+				<div class="row center">
+					<a href="http://drive.google.com" target="_blank">
+						<img style="width:10%" src="./foodseg103_files/dataset.png">
+					</a>
+					<a href="http://drive.google.com" target="_blank">
+						<img style="width:10%" src="./foodseg103_files/github.png">
+					</a>
+				</div>
+				
+				<div class="row center">
+					
+				</div>
+			</div>
+		</div>
 
-    <br>
-
-
-
-
-  </div>
-
-  <footer class="page-footer grey lighten-3">
-        
-    <div class="footer-copyright center black-text">
-      We thank <a href="http://graduatestudents.ucmerced.edu/wlai24/">Jason Lai</a> for providing this wonderful website template.
-    </div>
-  </footer>
+		<br>
 
 
-  <!--  Scripts-->
-  <script src="./foodseg103_files/jquery-2.1.1.min.js.下载"></script>
-  <script src="./foodseg103_files/materialize.js.下载"></script>
-  <script src="./foodseg103_files/init.js.下载"></script>
 
-  
+
+	</div>
+
+	<footer class="page-footer grey lighten-3">
+				
+		<div class="footer-copyright center black-text">
+			We thank <a href="http://graduatestudents.ucmerced.edu/wlai24/">Jason Lai</a> for providing this wonderful website template.
+		</div>
+	</footer>
+
+
+	<!--  Scripts-->
+	<script src="./foodseg103_files/jquery-2.1.1.min.js.下载"></script>
+	<script src="./foodseg103_files/materialize.js.下载"></script>
+	<script src="./foodseg103_files/init.js.下载"></script>
+
+	
 
 <div class="hiddendiv common"></div><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></body><div id="edge-translate-notifier-container" class="edge-translate-notifier-center"></div></html>
