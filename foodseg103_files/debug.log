@@ -129,3 +129,5 @@
 [0520/092350:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
 [0520/092355:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
 [0520/092401:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[0520/170750:WARNING:url_request_job_manager.cc(89)] Failed to map: weixin://resourceid/blank
+[0520/185558:WARNING:url_request_job_manager.cc(89)] Failed to map: weixin://resourceid/blank
